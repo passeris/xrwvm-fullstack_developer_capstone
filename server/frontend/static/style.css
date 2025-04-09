@@ -34,7 +34,7 @@ img{
 
 .title{
   font-size: 20px;
-  background-color: rgb(97, 64, 128);
+  background-color: rgb(235, 10, 30);
   color: white;
   text-align: center;
   margin:20px;
@@ -84,10 +84,10 @@ img{
   justify-self: center;
 }
 
-.nav_item{
+.navitem{
   margin-left:15px;
   font-size: 20px;
-  color: black;
+  color: white;
   align-self: center;
 }
 
