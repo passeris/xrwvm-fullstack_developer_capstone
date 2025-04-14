@@ -31,6 +31,7 @@ const Dealers = () => {
       method: "GET"
     });
     const retobj = await res.json();
+
     if(retobj.status === 200) {
       let all_dealers = Array.from(retobj.dealers)
       let states = [];
@@ -41,9 +42,10 @@ const Dealers = () => {
       setStates(Array.from(new Set(states)))
       setDealersList(all_dealers)
     }
+    
   }
   useEffect(() => {
-    get_dealers();
+   get_dealers();
   },[]);  
 
 

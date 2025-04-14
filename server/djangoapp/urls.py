@@ -17,5 +17,4 @@ urlpatterns = [
     # path for login
     path(route='login', view=views.login_user, name='login'),
     path(route='logout', view=views.logout_request, name='logout'),
-
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
