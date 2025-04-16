@@ -30,7 +30,7 @@ urlpatterns = [
         view=views.get_dealerships,
         name='get_dealers_by_state'
     ),
-    path(route='get_cars', view=views.get_cars, name ='getcars'),
+    path(route='get_cars', view=views.get_cars, name='getcars'),
     # path for registration
     path(route='register', view=views.registration, name='register'),
     # path for login
